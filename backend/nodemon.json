@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ext": "js,ts,json",
   "ignore": ["src/**/*.spec.ts"],
-  "exec": "ts-node  --transpile-only ./src/app.ts"
+  "exec": "node  --experimental-sqlite -r ts-node/register ./src/app.ts"
 }

@@ -1,3 +1,4 @@
+import "./database";
 import server from "./server";
 
 function init() {
