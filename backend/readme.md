@@ -88,4 +88,4 @@ The backend manages a simple "to-do" application with the following functionalit
 
 ### Known Problems
 
-The test is being skipped: I could not mock the in-memory database from Node for testing.
+- Test being skipped: I could not mock the in-memory database from Node for testing.
