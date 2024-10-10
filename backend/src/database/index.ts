@@ -21,7 +21,7 @@ export function getAllTodos() {
 
 export function addTodo(title: string) {
   const addTodo = database.prepare(INSERT_TODO);
-  const createdAt = new Date().toString();
+  const createdAt = new Date().toISOString();
   addTodo.run(title, createdAt);
 }
 
