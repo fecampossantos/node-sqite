@@ -6,6 +6,11 @@ This project is a backend test using Node's 22.9 SQLite update with in-memory da
 
 The backend manages a simple "to-do" application with the following functionalities:
 
+## Running the backend
+
+1. install dependencies using `yarn`
+2. run the backend using `yarn dev`
+
 ## API Routes
 
 1. **Ping Pong Test**  
