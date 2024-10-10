@@ -15,8 +15,8 @@ router
   .get(todoController.find)
   .delete(todoController.destroy);
 
-router.route("/todo/check/:id").post(todoController.check);
+router.route("/todo/check/:id").patch(todoController.check);
 
-router.route("/todo/uncheck/:id").post(todoController.uncheck);
+router.route("/todo/uncheck/:id").patch(todoController.uncheck);
 
 export default router;

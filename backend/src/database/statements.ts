@@ -10,6 +10,6 @@ export const INSERT_TODO = `INSERT INTO todo (key, title, created_at, done) VALU
 
 export const GET_TODO = `SELECT * FROM todo WHERE key = ?;`;
 
-export const DELETE_TODO = `DELETE * FROM todo WHERE key = ?;`;
+export const DELETE_TODO = `DELETE FROM todo WHERE key = ?;`;
 
 export const UPDATE_TODO_DONE = `UPDATE todo SET done = ? WHERE key = ?`;
