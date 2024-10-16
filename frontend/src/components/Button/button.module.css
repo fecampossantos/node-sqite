@@ -1,0 +1,23 @@
+.button {
+  height: 100%;
+  border: none;
+  padding: 0.4rem;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: black;
+}
+.button:active {
+  background-color: green;
+}
+
+.transparent {
+  background-color: transparent !important;
+}

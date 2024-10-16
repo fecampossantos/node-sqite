@@ -1,0 +1,10 @@
+#root {
+  max-width: 600px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}

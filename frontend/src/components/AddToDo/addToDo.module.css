@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  grid-template-columns: 5fr 1fr;
+
+  border-radius: 8px;
+  overflow: hidden;
+}

@@ -1,0 +1,13 @@
+.input {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+input:hover {
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
