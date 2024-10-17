@@ -11,20 +11,22 @@ This project is a small backend and frontend application to test the new SQLite 
 ## Running the Project
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/fecampossantos/node-sqlite
-   ```
+```bash
+git clone https://github.com/fecampossantos/node-sqlite
+```
    
-Navigate to the backend and frontend folders to install dependencies:
+2. Navigate to the backend and frontend folders to install dependencies:
 ```bash
 cd backend && yarn
 cd frontend && yarn
 ```
-Start the backend:
+
+3. Start the backend:
 ```bash
 yarn dev
 ```
-Start the frontend:
+
+4. Start the frontend:
 ```bash
 yarn dev
 ```
